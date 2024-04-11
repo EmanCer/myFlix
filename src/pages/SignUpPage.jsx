@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
+import logo from "../img/logo.png";
 
 function SignUpPage() {
   const [email, setEmail] = useState("");
@@ -26,7 +27,7 @@ function SignUpPage() {
       <div className="w-full flex justify-center py-10">
         <Link to={"/"}>
           <img
-            src="src\img\logo.png"
+            src={logo}
             alt="myflix logo"
             className="w-56 object-cover cursor-pointer"
           />

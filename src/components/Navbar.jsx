@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
 import requests from "../../tmdbUrls";
 import axios from "axios";
+import logo from "../img/logo.png";
 
 function Navbar() {
   const [query, setQuery] = useState("");
@@ -42,7 +43,7 @@ function Navbar() {
       <div className="w-40 sm:w-48">
         <Link to={"/"}>
           <img
-            src="\src\img\logo.png"
+            src={logo}
             alt="myflix logo"
             className="object-cover cursor-pointer"
           />
