@@ -5,7 +5,7 @@ function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <a href="/" className="flex items-center mb-4 sm:mb-0 space-x-3">
             <img
-              src="src\assets\img\logo.png"
+              src="\src\assets\img\logo.png"
               alt="myflix logo"
               className="h-8"
             />
