@@ -4,7 +4,7 @@ import YouTube from "react-youtube";
 import axios from "axios";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import requests from "../../../tmdbUrls";
+import requests from "../../tmdbUrls";
 
 function MoviePage() {
   // params take id from url

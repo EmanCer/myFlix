@@ -1,6 +1,6 @@
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
-import requests from "../../../tmdbUrls";
+import requests from "../../tmdbUrls";
 import Row from "../components/Row";
 import Footer from "../components/Footer";
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import requests from "../../../tmdbUrls";
+import requests from "../../tmdbUrls";
 
 function Main() {
   const [movies, setMovies] = useState([]);

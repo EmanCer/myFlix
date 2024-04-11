@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { FaHeart, FaRegHeart } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
-import { db } from "../../firebase";
+import { db } from "../firebase";
 import { arrayUnion, doc, updateDoc, getDoc, setDoc } from "firebase/firestore";
 
 function MovieCard({ el }) {
