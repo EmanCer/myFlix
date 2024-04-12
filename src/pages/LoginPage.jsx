@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logoMyflix from "../img/logo.png";
+import logoMyflix from "../img/logoMyflix.png";
 import { Link, useNavigate } from "react-router-dom";
 
 import { UserAuth } from "../context/AuthContext";

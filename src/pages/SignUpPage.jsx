@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
-import logoMyflix from "../img/logo.png";
+import logoMyflix from "../img/logoMyflix.png";
 
 function SignUpPage() {
   const [email, setEmail] = useState("");
